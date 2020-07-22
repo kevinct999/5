@@ -1,6 +1,6 @@
 <?php
 date_default_timezone_set('Asia/jakarta');
-include "function.php";
+include "function1.php";
 echo
 "\e[32;1m*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*~*\n";
 echo
