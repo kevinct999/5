@@ -26,7 +26,7 @@ echo "\n".color("purple","?] gas: y/n ");
         echo "\n".color("red","🔐▶ Message: ".$message);
         gofood:
         echo "\n".color("purple","▶Claim ulang");
-        echo "\n".color("blue","▶ tunggu lah");
+        echo "\n".color("blue","▶ wait");
         for($a=1;$a<=3;$a++){
         echo color("nevy",".");
         sleep(10);
@@ -38,7 +38,7 @@ echo "\n".color("purple","?] gas: y/n ");
         }else{
         echo "\n".color("red","🔐▶ Message: ".$message);
         echo "\n".color("purple","▶ Claim lagi!!");
-        echo "\n".color("blue","▶ tunggu lah");
+        echo "\n".color("blue","▶ wait");
         for($a=1;$a<=3;$a++){
         echo color("nevy",".");
         sleep(10);
