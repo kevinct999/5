@@ -126,6 +126,11 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         }else{
         echo "\n".color("red","🔐▶️ Message: ".$message);
         gofood:
+	echo "\n".color("nevy","🔒▶️ ");
+        echo "\n".color("nevy","⏳▶️ wait");
+        for($a=1;$a<=3;$a++){
+        echo color("nevy",".");
+        sleep(10);
 	}
         sleep(3);
         $cekvoucher = request('/gopoints/v3/wallet/vouchers?limit=13&page=1', $token);
