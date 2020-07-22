@@ -146,7 +146,7 @@ echo "\e[89m▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬▬�
         $voucher12 = getStr1('"title":"','",',$cekvoucher,"12");
         $voucher13 = getStr1('"title":"','",',$cekvoucher,"13");
         echo "\n".color("purple","🎫▶️ Total voucher ".$total." : ");
-        echo "\n".color("nevy","                     1. ".$voucher1);
+        echo "\n".color("nevy","                     1. ".$voucher1); 
         echo "\n".color("purple","                     2. ".$voucher2);
         echo "\n".color("nevy","                     3. ".$voucher3);
         echo "\n".color("purple","                     4. ".$voucher4);
